@@ -6,3 +6,4 @@ github: https://github.com/dolftax
 markdown: redcarpet
 pygments: false
 permalink: /:year/:month/:title
+comments: true

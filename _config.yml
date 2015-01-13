@@ -4,6 +4,5 @@ location:
 twitter: http://twitter.com/dolftax
 github: https://github.com/dolftax
 markdown: redcarpet
-pygments: false
+highlighter: null
 permalink: /:year/:month/:title
-comments: true

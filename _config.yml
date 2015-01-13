@@ -1,0 +1,8 @@
+name: dolftax's weblog!
+tagline: 
+location: 
+twitter: http://twitter.com/dolftax
+github: https://github.com/dolftax
+markdown: redcarpet
+pygments: false
+permalink: /:year/:month/:title

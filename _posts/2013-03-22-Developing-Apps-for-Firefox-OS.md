@@ -3,7 +3,7 @@ layout: post
 category : Mozilla
 title : Developing Apps for Firefox OS
 tagline: ""
-tags : [webapp,marketplace,FirefoxOs,tutotial,intro,Beginner,]
+tags : [Mozilla, Firefox OS, Webapp]
 ---
 
 Let us dive into the topic. No "bak!bak!bak!" ;)

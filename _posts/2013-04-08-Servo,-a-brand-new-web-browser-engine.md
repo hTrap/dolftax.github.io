@@ -3,7 +3,7 @@ layout: post
 category : Mozilla
 title : Servo, a brand new web browser engine
 tagline: ""
-tags : [servo,mobile,rust]
+tags : [Mozilla, Servo]
 ---
 
 Servo is written using Rust, a new safe systems language developed by Mozilla. Rust has been development for several years now and is said to be rapidly approaching stability. Also, like C++, it is said to have efficient high-level, multi-paradigm abstractions, and offers precise control over hardware resources.

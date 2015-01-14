@@ -3,7 +3,7 @@ layout: post
 category : Mozilla
 title : Get the GPS more accurate on tarako devices
 tagline: ""
-tags : [FirefoxOs,b2g,tarako]
+tags : [Mozilla, Firefox OS, tarako]
 ---
 
 Tarako devices has got A-GPS (Assisted GPS) and it has to lock the position with the help of the pre-configured SUPL server. In tarako, it takes too much of time to lock the position. The reason behind this delay is because of the bad SUPL server which is configured in these devices. So, changing the SUPL server configuration locally is the thing we need to do here.

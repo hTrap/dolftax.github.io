@@ -3,7 +3,7 @@ layout: post
 category : Mozilla
 title : Getting Started with Gaia
 tagline: ""
-tags : [FirefoxOs,b2g,mobile,tutorial]
+tags : [Mozilla, Firefox OS]
 ---
 
 Let us dive deep into Gaia. But wait! Before getting started, let us look into the architecture.,

@@ -3,7 +3,7 @@ layout: post
 category : Mozilla
 title : Before Submitting a web-app
 tagline: ""
-tags : [webapp,marketplace,FirefoxOs]
+tags : [Mozilla, Webapp]
 ---
 
 Open web applications are likely to continue to gain acceptance by end users, and for developers, they are a way to monetize the skills that they already have. But actually, *3 out of 10 submissions* seems to lag in quality. Personally, while we review apps, we first look at the functionality of the app and then the code. I've gathered some points for developers for carving an awe-inspiring web-app.

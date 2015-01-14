@@ -3,7 +3,7 @@ layout: post
 category : Mozilla
 title : TowTruck by Mozilla
 tagline: ""
-tags : [mozilla,webrtc]
+tags : [Mozilla]
 ---
 
 TowTruck is a service for your website that makes it surprisingly easy to collaborate in real-time.TowTruck is incredibly easy to set up on your site. All you need to do is include a couple lines of JavaScript and your site has TowTruck tools enabled.

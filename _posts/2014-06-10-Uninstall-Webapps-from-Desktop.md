@@ -3,7 +3,7 @@ layout: post
 category : Mozilla
 title : Uninstall Webapps from Desktop
 tagline: ""
-tags : [FirefoxOs,desktop,webapp]
+tags : [Mozilla, Firefox OS, Webapp]
 ---
 
 >Steps to remove a webapp from Desktop [Linux only]

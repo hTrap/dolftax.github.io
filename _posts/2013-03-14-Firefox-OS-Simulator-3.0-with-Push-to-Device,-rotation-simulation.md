@@ -3,7 +3,7 @@ layout: post
 category : Mozilla
 title : Firefox OS Simulator 3.0 with P2D, rotation simulation
 tagline: ""
-tags : [mozilla,FirefoxOs]
+tags : [Mozilla, Firefox OS]
 ---
 
 Mozilla launched its first Firefox OS Simulator late last year, letting developers test out apps on the new platform even though the software was still very much in development. It only makes sense, then, that a new version would surface following the mobile operating system's unveiling at Mobile World Congress 2013.

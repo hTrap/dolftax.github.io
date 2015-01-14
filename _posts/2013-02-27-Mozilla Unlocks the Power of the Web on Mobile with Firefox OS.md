@@ -3,7 +3,7 @@ layout: post
 category : Mozilla
 title : Power of the Web on Mobile with Firefox OS
 tagline: ""
-tags : [FirefoxOs,b2g,mobile]
+tags : [Mozilla, Firefox OS]
 ---
 
 Firefox OS offers the performance, personalization and price you want in a smartphone and a beautiful, clean, intuitive, personalized and easy-to-use experience. Firefox OS includes all the things people need from a smartphone out of the box – calls, messaging, email, camera and more – as well as the things you wish a smartphone offered, like built-in cost controls, social features with Facebook and Twitter, location-based services, the Firefox Web browser, new ability to discover one-time use and downloadable apps, Firefox Marketplace and much more.

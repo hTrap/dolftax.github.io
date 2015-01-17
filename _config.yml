@@ -1,8 +1,8 @@
 name: dolftax's weblog!
-tagline: 
-location: 
+tagline:
+location:
 twitter: http://twitter.com/dolftax
 github: https://github.com/dolftax
 markdown: redcarpet
-highlighter: null
+highlighter: pygments
 permalink: /:year/:month/:title

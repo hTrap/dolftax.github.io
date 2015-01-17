@@ -42,4 +42,4 @@ width: 100%;
 
 {% endhighlight %}
 
-Here is the CSS - https://github.com/applait/finder/blob/v2.2.0/css/app.css and the complete source code - https://github.com/applait/finder
+Here is the CSS - [https://github.com/applait/finder/blob/v2.2.0/css/app.css](https://github.com/applait/finder/blob/v2.2.0/css/app.css) and the complete source code - [https://github.com/applait/finder](https://github.com/applait/finder)

@@ -8,7 +8,7 @@ tags : [Applait, Firefox OS]
 
 Well, flexbox gives us a whole raft of new ways of controlling layout and flow. What we now achieve with floats we can do far more successfully and with more control with Flexbox.
 
-We used Flexbox in [Finder](https://marketplace.firefox.com/search?q=finder). Because, http://blog.applait.com/93.
+We used Flexbox in [Finder](https://marketplace.firefox.com/app/finder). Because, [http://blog.applait.com/93](http://blog.applait.com/93).
 
 Everything was fine on Firefox OS versions above 1.3, but on versions before that, the UI was scrambled. Eventually, it was evident that flexbox was fully supported only after versions 1.3 ( >= Gecko 28).
 

@@ -6,7 +6,7 @@ tagline: ""
 tags : [UI, Design]
 ---
 
-This post is about my my way of approach to develop User Interface for a document based collaboration platform. The Ideation is based on Martin's thoughts, which you can find it here - [http://societyserver.org/Topics/sTeam/Interface-elements-for-Document-Management](http://societyserver.org/Topics/sTeam/Interface-elements-for-Document-Management) . I would ask you to read the post and be back here.
+This post is about my way of approach to develop User Interface for a document based collaboration platform. The Ideation is based on Martin's thoughts, which you can find it here - [http://societyserver.org/Topics/sTeam/Interface-elements-for-Document-Management](http://societyserver.org/Topics/sTeam/Interface-elements-for-Document-Management) . I would ask you to read the post and be back here.
 
 > The structure lives and evolves. and so do the documents. - Martin
 

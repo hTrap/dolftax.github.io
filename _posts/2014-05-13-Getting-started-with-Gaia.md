@@ -6,19 +6,19 @@ tagline: ""
 tags : [Mozilla, Firefox OS]
 ---
 
-Let us dive deep into Gaia. But wait! Before getting started, let us look into the architecture.,
+Let us dive deep into Gaia. But wait! Before getting started, let us look into the architecture.
 
 ![](/images/firefox_os_architecture.png)
 
 >Image Source: MDN, licensed under [CC-BY-SA 2.5](http://creativecommons.org/licenses/by-sa/2.5/).
 
-Bewildered with the architecture?? If yes, then., Firefox OS is of three-layered architecture. The base being the low level linux kernel (i.e.,) Gonk and above that lies Gecko,a layout engine which reads HTML, CSS, JS, XUL, etc and render it. And at the top level, lies Gaia which is the User-Interface for Firefox OS. Now look at the above image.
+Bewildered? Firefox OS is of three-layered architecture. The base being the low level linux kernel (i.e.,) Gonk and above that lies Gecko, a layout engine which reads HTML, CSS, JS, XUL, etc and render it. And at the top level, lies Gaia which is the User-Interface for Firefox OS.
 
-Gaia is written with web technologies like HTML, CSS and Javascript. If you are pretty good with these, proceed further!
+Gaia is written with web technologies like HTML, CSS and Javascript. If you are pretty good with these, you could proceed further, else I would recommend you to get the basics strong before you hack on Gaia.
 
 ##Hacking with Gaia
 
-You need 'git' now. Install git by running
+Gaia repository is mainained with 'git' as VCS. Install git by running
 
     sudo pacman -S git
 
@@ -49,15 +49,11 @@ Start with your apps. The directory structure will be like
     locales folder:  To store translated strings for different languages.
     An HTML file: usually index.html.
 
-Read the coding style which we follow, <a href="https://developer.mozilla.org/en-US/Firefox_OS/Platform/Gaia/Hacking#Coding_style_basics">here</a>.
-
-If you got a Keon developer device, continue reading or drive [here](#emulator)
+Do read the coding style and conventions <a href="https://developer.mozilla.org/en-US/Firefox_OS/Platform/Gaia/Hacking#Coding_style_basics">here</a>.
 
 ##Setting Up the Device
 
-Download <a href="http://downloads.geeksphone.com/keon/master/nightly-images-keon-master-2014-05-12.Gecko-849b0f7.Gaia-014d16e.zip">b2g nightly build for Keon</a>. 
-
-Oops! Let us set-up the system first. Download <a href="http://developer.android.com/sdk/index.html">adt bundle</a>. I would prefer to download SDK tools and then download platform-tools and build-tools, as the ADT bundle consists of too many extra packages as we don't need 'em in our case. Extract the bundle to /opt/android-sdk and change the directory rights
+Let us set-up the system first. Download <a href="http://developer.android.com/sdk/index.html">adt bundle</a>. I would prefer to download SDK tools and then download platform-tools and build-tools, as the ADT bundle consists of too many extra packages as we don't need 'em in our case. Extract the bundle to /opt/android-sdk and change the directory rights
 
     chmod -R 755 /opt/android-sdk
 
@@ -77,6 +73,8 @@ Test it out.
     adb devices
 
 This should show you full_keon (or) keon_device or whatever under "List of Devices attached"
+
+Download <a href="http://downloads.geeksphone.com/keon/master/nightly-images-keon-master-2014-05-12.Gecko-849b0f7.Gaia-014d16e.zip">b2g nightly build for Keon</a>.
 
 You've got the zip file of Keon nightly build of b2g. Unzip it, traverse into the folder and run 
 
@@ -110,21 +108,23 @@ If you're working on a specific app and made changes only on it, then to push th
 
 >Replace 'calendar' with the app_name you are working on.
 
-More on make options <a href="https://developer.mozilla.org/en-US/Firefox_OS/Platform/Gaia/Hacking#Make_options">here</a>.
+Find more about make options <a href="https://developer.mozilla.org/en-US/Firefox_OS/Platform/Gaia/Hacking#Make_options">here</a>.
 
-If you're interested to debug Gaia on Firefox Desktop, else -> [here](#end)
-
-##Debugging Gaia with Firefox Desktop <a name="emulator"></a>
+##Debugging Gaia with Firefox Desktop
 
 Download <a href="http://nightly.mozilla.org/">Nightly build of Firefox</a>. You've got Gaia already. No big deal! Traverse to Gaia repository and run
 
     /path/to/firefoxnightly -profile /path/to/B2G/gaia/profile-debug -no-remote
 
-Done! This will open Firefox. You can see Gaia along with the<a href="https://developer.mozilla.org/en/docs/Tools"> devtools</a>. Make changes to the code, see it live on a "refresh".
+Done! This will open Firefox. You can see Gaia along with the<a href="https://developer.mozilla.org/en/docs/Tools"> devtools</a>. Make changes to the code, see it live on a refresh.
 
-<a name="end"></a>
+##Initiating a Pull Request(PR)
 
-One last question! Have you got linux? The article is based on Linux. If no, you could try installing it with the help of the setps mentioned <a href="http://jaipradeesh.github.io/arch/2014/05/06/Arch-Linux-Do-It-Yourself.html#sthash.KfcYbZUq.dpbs">here</a>.
+When changes are made to the code as per the bug, open your fork on github.com. You would get a button `Send Pull Request`. Click on it and fill up the necessary fields. And Create a Pull Request. Initiate r? to your mentor (In Bugzilla) with the Pull request link. Now, the module peer (or) mentor would make necessary comments on the bug.
+
+When everything goes well, your pull request would be merged to the codebase. Weeh!
+
+The article was drafted assuming you got Linux. If no, you could try installing it with the help of the setps mentioned <a href="http://jaipradeesh.github.io/arch/2014/05/06/Arch-Linux-Do-It-Yourself.html#sthash.KfcYbZUq.dpbs">here</a>.
 
 Stuck somewhere? Please be specific and comment below!
 

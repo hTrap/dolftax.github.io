@@ -37,9 +37,7 @@ And clone the forked repo
 
     git clone https://github.com/your_username/gaia.git
 
-<center><h2>Get some Caffine! A nap, might be!</h2></center>
-
-This will take even an hour as the repo is pretty huge.
+Get some Caffine! Maybe a nap! This would take even an hour as the repo is pretty huge.
 
 ##Directory Structure
 
@@ -88,17 +86,19 @@ Wait until the device restarts. Alright, Into Gaia now!
 
 ##Make gaia
 
-We've got the Gaia repo let us push it into the device. Traverse to Gaia repository and as of now, Keon uses the v1.0.1 branch of Gaia code, we will set the branch by,
+We've got the Gaia repo let us push it into the device. Traverse to Gaia repository and read `README.md` and `CONTRIBUTING.md` files thoroughly. You could also read through https://developer.mozilla.org/fr/Firefox_OS/Platform/Gaia/Hacking
 
-    git checkout -b v1.0.1
+To get started, those relatively easy and mentored bugs are tagged with [GOOD FIRST BUG] Find such bugs <a href="http://www.joshmatthews.net/bugsahoy/?b2g=1">here</a>.
 
-Now,
+If you are comfortable with the bug, please assign it to yourself. Create a local branch
+
+    git checkout -b "bugNumber-bugStatement"
+
+As explained in the bug, tweak the code, add a feature (or) fix a bug. To test it out in a device, run
 
     make install-gaia
 
-Okay! Now, stop being lazy and get all [GOOD FIRST BUG]s <a href="http://www.joshmatthews.net/bugsahoy/?b2g=1">here</a>.
-
-Choose a bug, think! Check with the code, make changes to the code, and again
+Check with the code, make changes to the code, and again run
 
     make install-gaia
 
@@ -122,12 +122,10 @@ Download <a href="http://nightly.mozilla.org/">Nightly build of Firefox</a>. You
 
 Done! This will open Firefox. You can see Gaia along with the<a href="https://developer.mozilla.org/en/docs/Tools"> devtools</a>. Make changes to the code, see it live on a "refresh".
 
-Okay! Now, stop being lazy and get all [GOOD FIRST BUG]s <a href="http://www.joshmatthews.net/bugsahoy/?b2g=1">here</a>.
-
 <a name="end"></a>
 
-One last question! Have you got linux? The article is based on Linux. If no, <a href="http://jaipradeesh.github.io/arch/2014/05/06/Arch-Linux-Do-It-Yourself.html#sthash.KfcYbZUq.dpbs">here</a> then. You think Arch is complex??, get <a href="http://fedoraproject.org/en/get-fedora">Fedora</a>.
+One last question! Have you got linux? The article is based on Linux. If no, you could try installing it with the help of the setps mentioned <a href="http://jaipradeesh.github.io/arch/2014/05/06/Arch-Linux-Do-It-Yourself.html#sthash.KfcYbZUq.dpbs">here</a>.
 
-Stuck somewhere? Comment below with the issue. Before you are at beck and call, next blogpost on "Submitting Patches" will be up ;)
+Stuck somewhere? Please be specific and comment below!
 
 Cheers!

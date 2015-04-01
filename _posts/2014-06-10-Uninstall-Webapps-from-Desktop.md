@@ -1,7 +1,7 @@
 ---
 layout: post
 category : Mozilla
-title : Uninstall Webapps from Desktop
+title : Uninstall Firefox Apps from Desktop
 tagline: ""
 tags : [Mozilla, Firefox OS, Webapp]
 ---

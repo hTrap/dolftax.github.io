@@ -6,9 +6,7 @@ tagline: ""
 tags : [Mozilla, Firefox OS, Webapp]
 ---
 
-Let us dive into the topic. No "bak!bak!bak!" ;)
-
-Note : This post contains images which are not suitable for low resolutions. Sorry 'bout that!
+Let us dive into the topic.
 
 <strong>
 Firefox Nightly- [http://nightly.mozilla.org/](http://nightly.mozilla.org/) | B2G Simulator- [https://ftp.mozilla.org/pub/mozilla.org/labs/r2d2b2g/r2d2b2g-3.0pre3-windows.xpi](https://ftp.mozilla.org/pub/mozilla.org/labs/r2d2b2g/r2d2b2g-3.0pre3-windows.xpi) | Any text editor- [Notepad ++](http://sourceforge.net/projects/notepad-plus/files/latest/download) will work good.

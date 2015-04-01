@@ -11,7 +11,7 @@ tags : [Linux, Arch]
 Arch Linux! I will give the reasons why should  choose Arch Linux over an other distro. Installing Arch Linux is pretty difficult task when you atempt to do it for your first time if you are not familiar with command line and basics of linux. But I would suggest you to install Arch Linux as you will gain a very good insight on how linux works. Arch linux is a minimal, [bleeding-edge](https://www.archlinux.org/about/) distro and you won't have unnecessary packages/drivers or whatever preinstalled. You shape your OS as it suits your needs. Let's get started!
 
 ##Before getting started
-Make sure you've downloaded the arch dual_iso (Arch ISO is dual arch meaning you can install either 32 bit or 64 bit version of Arch using the same media) from [here](mirror.cse.iitk.ac.in/archlinux/iso/2014.05.01/) and dd it. If you got no idea what dd is, arch ain't for you friend! Please be sure you are connected to wifi or plug-in an ethernet cable. If you've got UEFI motheboard, the procedure is pretty same but you gotta do some tweaks with grub, which I will explain later, as I experienced the UEFI pain ;)
+Make sure you've downloaded the arch dual_iso (Arch ISO is dual arch meaning you can install either 32 bit or 64 bit version of Arch using the same media) from [here](mirror.cse.iitk.ac.in/archlinux/iso/2014.05.01/) and dd it. If you got no idea what dd is, arch ain't for you friend! Please be sure you are connected to wifi or plug-in an ethernet cable. If you've got UEFI motheboard, the procedure is pretty same but you gotta do some tweaks with grub, which I will explain later, as I experienced the UEFI pain.
 
 ##./arch
 
@@ -198,13 +198,13 @@ Create root password,
 
 And add user
 
-    useradd -m -g users -G wheel -s /bin/bash jpj
+    useradd -m -g users -G wheel -s /bin/bash dolftax
 
->Replace jpj by your username
+>Replace dolftax by your username
 
 Password for you,
 
-    passwd jpj
+    passwd dolftax
 
 Umm! Installing and configuring sudo, by
 
@@ -319,7 +319,7 @@ Restart the slim service
 
     systemctl enable slim.service
 
-##YEEEHAH! You made it! :D##
+##YEEEHAH! You made it!##
 
 If you face any error, '[duck duck go](http://duckduckgo.com)' it, even if you couldn't resolve, comment below!
 
@@ -335,17 +335,8 @@ as this would resolve all the dependencies.
 
 #####Network Manager issues
 
-In case of any network manager error, go [here](https://wiki.archlinux.org/index.php/NetworkManager) . You can use
+In case of any network manager error, go [here](https://wiki.archlinux.org/index.php/NetworkManager) . You could do
 
     sudo wifi-menu
 
-until then ;)
-
-
-
-
-
-
-
-
-
+Cheers!

@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/dolftax
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dolftax.com
+    * I am dolftax (https://keybase.io/dolftax) on keybase.
+      * I have a public key with fingerprint CD4C 4B2C EFCB 7A67 BE15  4F83 DB78 82D8 FC20 A6E9
+
+      To do so, I am signing this object:
+
+{
+	    "body": {
+		            "key": {
+				                "fingerprint": "cd4c4b2cefcb7a67be154f83db7882d8fc20a6e9",
+						            "host": "keybase.io",
+							                "key_id": "db7882d8fc20a6e9",
+									            "kid": "0101a401246fd59550ab53d02a8d56973834959cd1b46c20561103b8928ba48d6d7c0a",
+										                "uid": "848e8f31038a2535b1cdc7718b029019",
+												            "username": "dolftax"
+														            },
+			            "service": {
+					                "hostname": "dolftax.com",
+							            "protocol": "http:"
+									            },
+				            "type": "web_service_binding",
+					            "version": 1
+							        },
+	        "ctime": 1427976330,
+		    "expire_in": 157680000,
+		        "prev": "c061b5aa75adb4b0d8db95684c388ce808479d62c8e1ea3115e7c262d506f4f2",
+			    "seqno": 4,
+			        "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFtUltsDFEY3mpRS1GiiWiF0RA0nJk5Z+bMog0SRVqXiqRoss5t2tF2Z83O9mLb
+l3pAEK1EPZCItEqauESDByQ0qFRIbEnUrSokSlyepFIRMw0PEuflz/n+7/v+S/7m
+jNRAesqLuqZnP+d0DKU8uF1AA1tzQEtCojavl0IJqVKMBtOKlAsn6lgRVwpJjEMG
+qcKEyahONJ0KGUETq5zqGCscm0wBRBOGlCdV2DFf4dlQEhNLLNvDvE/Y4h76H37l
+aALIQCYQyArUTI4MhAChSOVAIZgjzdBVrEIDGYzLFGqeGGmyDFSKDQVTAjHXuM4A
+8ezio3YYYoFN1aNgoiAVUZlxpusypkAxgOzXjceEEyHVwu/KrjJdUic15kkeWGMx
+4W/AH+RfwhJmV3vKqGO7NrOrvESF60ZDvs6tj/rEWkHDfyzC1Ipwb4meoEY4McuO
+SCHZYzLX8j1lqOiGrqkqyJNEXdRyRNjyGUjXMPCeX0bU+KsHmkwRIToinEIKOObU
+QBqGTMWYCQww1A2uKQwLWRBVlpHQmaIpHAHNhKYi+UPtjthSCHptknLPMmaVR4gb
+d4TUGDyQkp0WSEkPjBs7xr+DQHDC1L/XcXlzeuD8xCuD09+lLm9d0Fg0NLOnK7u4
+b/y9pXefTM+/0HP1RbLm89zEjGUDUz72wZHEh/2LB3/B6pJfO48UzofPg8HaxLb7
+Y9qO92/Z5FTMnvQqWFiafH/HDu+vZcOV8wa+dq3L6D5xwzlU/H3ELblVNG3jXb1u
+xertE48N9l9rTfKGksqH/fFZuWmvT7V/yj+5eXZm2eRJX56tP3oQge99CztCTb0/
+rl8tHnrU5az5tiPZVNa3qCU3XnX2ZOaHl7syx16sOLNo7+Pe+8k31TteO81Fa1el
+duuXcvQZnVnXlj4dKHv7duWe+uzTrd/a82/2lxbu6xlq2dC5ihXsKmgYTjsc6X2Z
+NTfrXNtv
+=Lt3D
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dolftax
+
+==================================================================
+

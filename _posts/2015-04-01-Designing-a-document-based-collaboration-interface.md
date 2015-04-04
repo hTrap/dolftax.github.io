@@ -24,7 +24,7 @@ Each room should have
 - Description
 - Keywords 
 
-and good to have various other attributes which might explain the room well. The admin has a sidebar which options to perform CRUD (Create/Read/Update/Delete) operations on a room. The sidebar is hidden for guest user.
+and good to have various other attributes which might explain the room well. The admin has a sidebar which options to perform CRUD (Create/Read/Update/Delete) operations on a room. The sidebar is hidden for guest user. The wireframe below is detailed/zoomed view of a room.
 
 ![Room - Detailed View | Admin](https://raw.githubusercontent.com/dolftax/dolftax.github.io/master/sTeam/wireframes/2.png)
 

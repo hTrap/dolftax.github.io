@@ -8,10 +8,10 @@ tags : [Linux, Arch]
 
 >The Linux philosophy is 'Laugh in the face of danger'. Oops. Wrong One. 'Do it yourself'. Yes, that's it! -Linus Torvalds
 
-Arch Linux! I will give the reasons why should  choose Arch Linux over an other distro. Installing Arch Linux is pretty difficult task when you atempt to do it for your first time if you are not familiar with command line and basics of linux. But I would suggest you to install Arch Linux as you will gain a very good insight on how linux works. Arch linux is a minimal, [bleeding-edge](https://www.archlinux.org/about/) distro and you won't have unnecessary packages/drivers or whatever preinstalled. You shape your OS as it suits your needs. Let's get started!
+Arch Linux! I will give the reasons why should one choose Arch Linux over an other distro. Installing Arch Linux is pretty difficult task when you atempt to do it for your first time if you are not familiar with command line and basics of linux. But I would suggest you to install Arch Linux as you will gain a very good insight on how linux works. Arch linux is a minimal, [bleeding-edge](https://www.archlinux.org/about/) distro and you won't have unnecessary packages/drivers or whatever preinstalled. You shape your OS as it suits your needs. Let's get started!
 
 ##Before getting started
-Make sure you've downloaded the arch dual_iso (Arch ISO is dual arch meaning you can install either 32 bit or 64 bit version of Arch using the same media) from [here](mirror.cse.iitk.ac.in/archlinux/iso/2014.05.01/) and dd it. If you got no idea what dd is, arch ain't for you friend! Please be sure you are connected to wifi or plug-in an ethernet cable. If you've got UEFI motheboard, the procedure is pretty same but you gotta do some tweaks with grub, which I will explain later, as I experienced the UEFI pain.
+Make sure you've downloaded the arch dual_iso (Arch ISO is dual arch meaning you can install either 32 bit or 64 bit version of Arch using the same media) from [here](http://mirror.cse.iitk.ac.in/archlinux/iso/) and dd it. If you got no idea what dd is, arch ain't for you friend! Please be sure you are connected to wifi or plug-in an ethernet cable. If you've got UEFI motheboard, the procedure is pretty same but you gotta do some tweaks with grub, which I will explain later, as I experienced the UEFI pain.
 
 ##./arch
 

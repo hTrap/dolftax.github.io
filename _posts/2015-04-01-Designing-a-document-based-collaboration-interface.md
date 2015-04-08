@@ -1,7 +1,7 @@
 ---
 layout: post
 category : General
-title : Designing a document based collaboration interface
+title : Designing a document based collaboration interface - Draft 1
 tagline: ""
 tags : [UI, Design]
 ---

@@ -319,7 +319,7 @@ Restart the slim service
 
     systemctl enable slim.service
 
-##YEEEHAH! You made it!##
+###YEEEHAH! You made it!###
 
 If you face any error, '[duck duck go](http://duckduckgo.com)' it, even if you couldn't resolve, comment below!
 
@@ -327,15 +327,15 @@ If you face any error, '[duck duck go](http://duckduckgo.com)' it, even if you c
 
 #####Installing packages from AUR
 
-If a package couldn't be found by pacman, you can install it from [AUR (Arch User Repository)](https://aur.archlinux.org/) . Guidelines to install packages from AUR is [here](https://wiki.archlinux.org/index.php/AUR_User_Guidelines##Installing_packages) I would prefer making a package with 
+If a package couldn't be found by pacman, you can install it from [AUR (Arch User Repository)](https://aur.archlinux.org/) . Guidelines to install packages from AUR is [here](https://wiki.archlinux.org/index.php/AUR_User_Guidelines##Installing_packages). Aura, another multilingual package manager would build and install the package for you. Find more about Aura here - [https://wiki.archlinux.org/index.php/Aura](https://wiki.archlinux.org/index.php/Aura). You can now search for packages from AUR by
 
-    makepkg -Acs
+    sudo aura -A 'package_name'
 
-as this would resolve all the dependencies.
+as this would resolve all the dependencies, make the package and install it.
 
 #####Network Manager issues
 
-In case of any network manager error, go [here](https://wiki.archlinux.org/index.php/NetworkManager) . You could do
+In case of any network manager error, go [here](https://wiki.archlinux.org/index.php/NetworkManager) . To get list of networks and connect to them through terminal, you could run
 
     sudo wifi-menu
 

@@ -339,6 +339,6 @@ In case of any network manager error, go [here](https://wiki.archlinux.org/index
 
     sudo wifi-menu
 
-#### Update: A few days after publishing this post, a vivid discussion took place with lots of interesting CV examples on [Hacker News](https://news.ycombinator.com/item?id=9332978)
+Update: Ater publishing this post, a vivid discussion took place on Hacker News - https://news.ycombinator.com/item?id=9332978
 
 Cheers!

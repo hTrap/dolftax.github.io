@@ -12,7 +12,7 @@ tags : [UI, Design]
 
  #1 : We could not enforce a topic/subtopic structure because rooms can be deeply nested. Topics and subtopics are all rooms. The users are free to organize the rooms as they wish. They could be topics, they could be something else. At every level, there may be documents and more rooms.
 
-=> Removed topic/subtopic structure. As the rooms are completely nested, a room could contain any number of sub-rooms. Rooms and documents are analogous to folders and files. But wait, there are containers which are multi-part documents. To get the clear idea of what we mean by containers- refer to the discussion we had | IRC log - [https://gist.githubusercontent.com/dolftax/bc263b30f95d0687cd6b/raw/02da92a39625899aaa82475c871ba563187a3169/fossasia-log](https://gist.githubusercontent.com/dolftax/bc263b30f95d0687cd6b/raw/02da92a39625899aaa82475c871ba563187a3169/fossasia-log)
+=> Removed topic/subtopic structure. As the rooms are completely nested, a room could contain any number of sub-rooms. Rooms and documents are analogous to folders and files. But wait, there are containers which are multi-part documents. To get the clear idea of what we mean by containers- refer to the discussion we had | IRC log - [https://tr.im/UOZpT](https://tr.im/UOZpT)
 
 ### Shared and Private workarea
 

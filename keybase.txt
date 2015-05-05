@@ -5,57 +5,58 @@ https://keybase.io/dolftax
 I hereby claim:
 
   * I am an admin of http://dolftax.com
-    * I am dolftax (https://keybase.io/dolftax) on keybase.
-      * I have a public key with fingerprint CD4C 4B2C EFCB 7A67 BE15  4F83 DB78 82D8 FC20 A6E9
+  * I am dolftax (https://keybase.io/dolftax) on keybase.
+  * I have a public key with fingerprint 3854 0501 15A3 0A06 C926  C56A 53AF 8BA3 B6E3 F2EB
 
-      To do so, I am signing this object:
+To do so, I am signing this object:
 
 {
-	    "body": {
-		            "key": {
-				                "fingerprint": "cd4c4b2cefcb7a67be154f83db7882d8fc20a6e9",
-						            "host": "keybase.io",
-							                "key_id": "db7882d8fc20a6e9",
-									            "kid": "0101a401246fd59550ab53d02a8d56973834959cd1b46c20561103b8928ba48d6d7c0a",
-										                "uid": "848e8f31038a2535b1cdc7718b029019",
-												            "username": "dolftax"
-														            },
-			            "service": {
-					                "hostname": "dolftax.com",
-							            "protocol": "http:"
-									            },
-				            "type": "web_service_binding",
-					            "version": 1
-							        },
-	        "ctime": 1427976330,
-		    "expire_in": 157680000,
-		        "prev": "c061b5aa75adb4b0d8db95684c388ce808479d62c8e1ea3115e7c262d506f4f2",
-			    "seqno": 4,
-			        "tag": "signature"
+    "body": {
+        "key": {
+            "fingerprint": "3854050115a30a06c926c56a53af8ba3b6e3f2eb",
+            "host": "keybase.io",
+            "key_id": "53af8ba3b6e3f2eb",
+            "kid": "01016d333e20652531a019e981ffff26b35af70d6126eb6ad4b00d233f8f1c9c236b0a",
+            "uid": "848e8f31038a2535b1cdc7718b029019",
+            "username": "dolftax"
+        },
+        "service": {
+            "hostname": "dolftax.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1430483291,
+    "expire_in": 157680000,
+    "prev": "faed1527748ad7e54d468c42deff6f5c4f7a74e8710524e110b4027db070ad38",
+    "seqno": 23,
+    "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG v2
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
 
-owFtUltsDFEY3mpRS1GiiWiF0RA0nJk5Z+bMog0SRVqXiqRoss5t2tF2Z83O9mLb
-l3pAEK1EPZCItEqauESDByQ0qFRIbEnUrSokSlyepFIRMw0PEuflz/n+7/v+S/7m
-jNRAesqLuqZnP+d0DKU8uF1AA1tzQEtCojavl0IJqVKMBtOKlAsn6lgRVwpJjEMG
-qcKEyahONJ0KGUETq5zqGCscm0wBRBOGlCdV2DFf4dlQEhNLLNvDvE/Y4h76H37l
-aALIQCYQyArUTI4MhAChSOVAIZgjzdBVrEIDGYzLFGqeGGmyDFSKDQVTAjHXuM4A
-8ezio3YYYoFN1aNgoiAVUZlxpusypkAxgOzXjceEEyHVwu/KrjJdUic15kkeWGMx
-4W/AH+RfwhJmV3vKqGO7NrOrvESF60ZDvs6tj/rEWkHDfyzC1Ipwb4meoEY4McuO
-SCHZYzLX8j1lqOiGrqkqyJNEXdRyRNjyGUjXMPCeX0bU+KsHmkwRIToinEIKOObU
-QBqGTMWYCQww1A2uKQwLWRBVlpHQmaIpHAHNhKYi+UPtjthSCHptknLPMmaVR4gb
-d4TUGDyQkp0WSEkPjBs7xr+DQHDC1L/XcXlzeuD8xCuD09+lLm9d0Fg0NLOnK7u4
-b/y9pXefTM+/0HP1RbLm89zEjGUDUz72wZHEh/2LB3/B6pJfO48UzofPg8HaxLb7
-Y9qO92/Z5FTMnvQqWFiafH/HDu+vZcOV8wa+dq3L6D5xwzlU/H3ELblVNG3jXb1u
-xertE48N9l9rTfKGksqH/fFZuWmvT7V/yj+5eXZm2eRJX56tP3oQge99CztCTb0/
-rl8tHnrU5az5tiPZVNa3qCU3XnX2ZOaHl7syx16sOLNo7+Pe+8k31TteO81Fa1el
-duuXcvQZnVnXlj4dKHv7duWe+uzTrd/a82/2lxbu6xlq2dC5ihXsKmgYTjsc6X2Z
-NTfrXNtv
-=Lt3D
+yMIbAnicbZJdSFRBFMd3S8sMMbEgKiguCSmrzNy5X7tgRkWWQSlhFEY2985c96bu
+XXdXXV0/yKAwg5QUCyoroQ/BrR4yKaVNFzaQHiLWjKgexCISoiAxLWuu1EPQeRnm
+nP//N3MOJ5qy1JZsP3CnrXdg8usn+9iTvGpb8Y6qkhCnmqSOc4W4crp46IanjPq8
+PsMT4FwcUkQBiABCESOAgaQ5eUkTJSwirCsqRqpEkc5TlXNwbtNvORhGxX6aY5gs
+xy6lBmHZ/+jLFwsAAigRhBDlgSTyIoIYQCd1KlBnwUsqErEuAyJBXqKqhImgAkB4
+hHRFh5pT45GkAsxw1Ys4RVCooiMIkIIZTFShRjRZhooKeCcDW0I/9XlwJWVqYlbo
+ARzkGh0cS9YYGrUmYDXyryBHMyuZ0+szA6ZmVrCCOxDwuixfoM5rCWupWvoHUaoa
+HsKGyAw11Oc3TA/ngkypBQyLCQUEBAXxTujgaNBr+GipYSlEWVIAC+sZWsOQOqYE
+irwsCwomMhUFIkiKJvCE6rqki5qgy1gWqCJDIPIChRCoAuBlogIZYIIUzmqqymNy
+Lh6xf+IyxvQbZR4cqPZRrnEkciTBZk+2LUtcYu2BLXnFqr/bMXowydbycy0Zm33Q
+sCGcXicXxSIOLjY16okrzxPDzU2HHvenz4ezg0Z5+/WelPHDz9LD48ff7EoLnXiV
+hz9OCPDtUGWuqza1Mjibv7W3J3v6+5ri5HjXsH/mVn7mxPAsaCg4d78t+vL8ZUdx
+Wpf7TGHUlbl/OGN43/I+hzkZS3tq9p79XNJZ0BZPmnZ1/4jNHM3auPOFva9krr65
++ZRvz9Dor1D59qzBwan1sd25C0399r6rhZ2vM4sKvrW3XssEm+UL7cfUbRMfqu7F
+3etON7auTkuYI6mP/DcvDnREJi6VnGyJ7l3orh+YH40Uv7v7sL3xvbHlduLKG9GR
+TVdshV86bBm/ATGzLLw=
+=QSRY
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -64,4 +65,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/dolftax
 
 ==================================================================
-

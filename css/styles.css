@@ -1,4 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@font-face {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Serif"), local("PTSerif-Regular"), url("http://fonts.gstatic.com/s/ptserif/v8/I-OtoJZa3TeyH6D9oli3ifesZW2xOQ-xsNqO47m55DA.woff2") format("woff2"), url("http://fonts.gstatic.com/s/ptserif/v8/sDRi4fY9bOiJUbgq53yZCfesZW2xOQ-xsNqO47m55DA.woff") format("woff");
+}
 /* Micro clearfix */
 .cf:before,
 .cf:after {
@@ -13,9 +19,7 @@
 }
 body {
   padding: 50px;
-  font-family: Georgia, serif;
-  color: #555555;
-  font-weight: 300;
+  font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5em;
   font-size: 18px;
   margin: 0;

@@ -19,7 +19,7 @@ body {
   line-height: 1.5em;
   font-size: 18px;
   margin: 0;
-  border-top: 3px solid #5cadd6;
+  border-top: 3px solid #505050;
 }
 h1,
 h2,
@@ -50,12 +50,12 @@ dl,
   margin: 0 0 20px;
 }
 a {
-  color: #3380cc;
+  color: #3c3c3c;
   font-weight: 400;
   text-decoration: none;
 }
 a:hover {
-  color: #006699;
+  color: #3c3c3c;
 }
 a small {
   margin-top: -0.6em;

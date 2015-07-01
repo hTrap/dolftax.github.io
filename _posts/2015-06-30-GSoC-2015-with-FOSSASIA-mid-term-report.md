@@ -65,6 +65,7 @@ It is mid term already and as planned I am half way through the project. If you 
 - Automate tasks with certain gulp modules - gulp-angular-templatecache, gult-concat, gult-lint, gulp-uglify, ..
 
 - Write unit tests with mocha and chai.
+
 - Tidy up and add more documentation, which is already being done here - [https://github.com/eMBee/sTeam/wiki/Installation-steps](https://github.com/eMBee/sTeam/wiki/Installation-steps)
 
 Apart, we do scrum meet everyday. Check out the logs - [http://dpaste.com/2A3J121](http://dpaste.com/2A3J121)
@@ -73,8 +74,20 @@ Currently, `node-static` module is used to serve the app and our development ser
 
 >Note: The project is heavily under development and things might break.
 
-### POST GSoC plans
+Sign-up API is not implemented yet. Find some of the working screenshots below
 
-The REST APIs are under development and a lot of features are yet to be developed. I have a brief listing of the `yet to be developed` APIs and the list grows eventually as we figure out something is missing.
+![Login](https://raw.githubusercontent.com/dolftax/dolftax.github.io/master/sTeam/screenshots/login.png)
+
+![Private workarea](https://raw.githubusercontent.com/dolftax/dolftax.github.io/master/sTeam/screenshots/private_workarea.png)
+
+![Groups](https://raw.githubusercontent.com/dolftax/dolftax.github.io/master/sTeam/screenshots/groups.png)
+
+![Create room](https://raw.githubusercontent.com/dolftax/dolftax.github.io/master/sTeam/screenshots/createroom.png)
+
+![Create document](https://raw.githubusercontent.com/dolftax/dolftax.github.io/master/sTeam/screenshots/createdoc.png)
+
+### Future plans
+
+The REST APIs are under development and a lot of features are yet to be developed. I have a brief listing of the yet to be developed APIs and the list grows eventually as we figure out something is missing.
 
 Thats all for now. Will get back soon!

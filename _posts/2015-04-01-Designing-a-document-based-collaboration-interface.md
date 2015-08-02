@@ -3,14 +3,14 @@ layout: post
 category : General
 title : "[First Draft] Designing a document based collaboration interface"
 tagline: ""
-tags : [UI, Design]
+tags : [UI, Design, sTeam]
 ---
 
 This post is about my way of approach to develop User Interface for a document based collaboration platform. The Ideation is based on Martin's thoughts, which you can find it here - [http://societyserver.org/Topics/sTeam/Interface-elements-for-Document-Management](http://societyserver.org/Topics/sTeam/Interface-elements-for-Document-Management) . I would ask you to read the post and be back here.
 
 > The structure lives and evolves. and so do the documents. - Martin
 
-Alright, You're back! The primary goal was not to develop a separate admin panel. Rather the interface adds up extra admin options based on the permissions given to the logged-in user (Maybe, admin). 
+Alright, You're back! The primary goal was not to develop a separate admin panel. Rather the interface adds up extra admin options based on the permissions given to the logged-in user (Maybe, admin).
 
 > When I say `admin`, it means the authorized user who has Read/Write permissions and `guest` stands for non-authorized user who has only Read permissions.
 
@@ -22,7 +22,7 @@ Each room should have
 
 - Topic
 - Description
-- Keywords 
+- Keywords
 
 and good to have various other attributes which might explain the room well. The admin has a sidebar which options to perform CRUD (Create/Read/Update/Delete) operations on a room. The sidebar is hidden for guest user. The wireframe below is detailed/zoomed view of a room in the above image.
 
@@ -55,7 +55,7 @@ Considering the hierarchy as a tree, the leaf node be the document. A document c
 - binary
 - object (instance of a script)
 
-Displaying the content of a document in the browser would be based on the type of the document. Anything text based, images and videos are displayed. For other binary files or objects, only metadata is displayed (owner, date of creation etc). And binaries would have a download link. Comments at this level is document specific. 
+Displaying the content of a document in the browser would be based on the type of the document. Anything text based, images and videos are displayed. For other binary files or objects, only metadata is displayed (owner, date of creation etc). And binaries would have a download link. Comments at this level is document specific.
 
 > At any level, one should be able to navigate to any room/topic (or) sub-topic with the help of the right sidebar drawer.
 
@@ -80,7 +80,7 @@ Creating a document asks for document specific information and feature for uploa
 
 ![Create Document](https://raw.githubusercontent.com/dolftax/dolftax.github.io/master/sTeam/wireframes/12.png)
 
-With that said, if you have any suggestions (or) if I'm missing something here, please start the discussion below. Note that these are bare minimum wireframes and therefore would be slightly modified during implementation. 
+With that said, if you have any suggestions (or) if I'm missing something here, please start the discussion below. Note that these are bare minimum wireframes and therefore would be slightly modified during implementation.
 
 #### UPDATE: Uh oh! I missed containers. Expect a bit of restructure in my next draft.
 

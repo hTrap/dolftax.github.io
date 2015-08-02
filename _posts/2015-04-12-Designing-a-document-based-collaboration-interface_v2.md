@@ -3,7 +3,7 @@ layout: post
 category : General
 title : "[Second Draft] Designing a document based collaboration interface"
 tagline: ""
-tags : [UI, Design]
+tags : [UI, Design, sTeam]
 ---
 
 .. this post is the continuation of my first draft which you could find it here - [http://dolftax.com/2015/04/Designing-a-document-based-collaboration-interface/](http://dolftax.com/2015/04/Designing-a-document-based-collaboration-interface/) .  I would ask you to go through the first draft before proceeding here, because here I've explained only the wireframes which are modified/tweaked, based on the comments on the first draft. This post is structured as /me resolving the comments on my first draft, with the new wireframes and explaining the reasons for modification.
@@ -51,7 +51,7 @@ Notice the `settings` icon? Except for the first level, (levels are tracked by t
 
 ![Sidebar Right](https://raw.githubusercontent.com/dolftax/dolftax.github.io/master/sTeam/web_interface_v2_wireframes/sidebar_right-navigation.png)
 
-Also, if you wish to join any room, use the search bar. It would fetch you the list of rooms. Some rooms will not allow you to access the documents. Click on the `user request` icon next to room name, which would notify the room admin. When he gives you access, the room/document would be displayed in your shared workarea. 
+Also, if you wish to join any room, use the search bar. It would fetch you the list of rooms. Some rooms will not allow you to access the documents. Click on the `user request` icon next to room name, which would notify the room admin. When he gives you access, the room/document would be displayed in your shared workarea.
 
 #### Search Results view
 
@@ -59,7 +59,7 @@ Also, if you wish to join any room, use the search bar. It would fetch you the l
 
 ### Permission table
 
- #4: A user should be able to insert objects without read and write permissions. 
+ #4: A user should be able to insert objects without read and write permissions.
 One example where this is needed is to send your homework to your teacher.
 You get permission to insert into the teachers room, but once it's in there,
 you can't read it or write it anymore. It allows far more fine grained permissions than a unix system.

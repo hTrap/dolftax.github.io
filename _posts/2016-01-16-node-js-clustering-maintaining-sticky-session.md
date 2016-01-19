@@ -3,7 +3,7 @@ layout: post
 category : General
 title : "Node.js clustering maintaining sticky session"
 tagline: ""
-tags : [DoSelect, JavaScript, Scaling]
+tags : [JavaScript, Scaling]
 ---
 
 NodeJS is single threaded. It is event-driven and single-threaded with background workers. Scaling up a node application is possible by splitting a single process into multiple processes or workers by using [cluster](https://nodejs.org/api/cluster.html) module. The cluster module allows you to create child processes (workers), which share all the server ports with the main Node process (master).
@@ -26,7 +26,7 @@ if (cluster.isMaster) {
   // Application code
   http.createServer(function(req, res) {
     res.writeHead(200)
-    res.end('process.pid + ' says hello!')
+    res.end(process.pid + ' says hello!')
   }).listen(8000)
 }
 {% endhighlight %}
